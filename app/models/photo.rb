@@ -4,4 +4,5 @@ class Photo < ActiveRecord::Base
 
   validates :picture, presence: true
   validates :caption, presence: true, length: { minimum: 4 }
+
 end
